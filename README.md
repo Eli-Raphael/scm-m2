@@ -1,5 +1,6 @@
 # ATM MACHINE CONTRACT
 
+The ATM Machine contract is a simple representation of how a transaction in the blockchain can be done, it shows a means of depositing and withdrawing from a bank, as well as the ability to transfer funds from one account to the other, showing the ability of users to transact in this field.
 
 ## Description
 
@@ -23,11 +24,7 @@ Terminal 2
 Terminal 3
 1. npx hardhat run --network localhost scripts/deploy.js
 
-To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.11" (or another compatible version), and then click on the "Compile HelloWorld.sol" button.
-
-Once the code is compiled, click the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "AutoDoor" contract from the dropdown menu, and then click on the "Deploy" button.
-
-Below the deploy button you will see the "Deployed contract" where you can manipulate or call on the code and its functions using the user interface. Here you can test the interactions with the different functions as the owner and as other users.
+Copy the codes below to the Assessment.sol and index.js files respectively:
 
 Assessment.sol
 
@@ -87,9 +84,8 @@ Assessment.sol
         }  
     ```
     
-
-
-     ```
+   
+    ```
         // index.js
         import { useState, useEffect } from "react";
         import { ethers } from "ethers";
@@ -288,11 +284,12 @@ Assessment.sol
             </main>
           );
         }
-        ```
-        
+```
+Going back to terminal 1
+3. npm run dev
+
 After following the instructions, you have the front end already, through **npm run dev** in the first terminal. Now that you have the front end you are free to interact with the buttons and see the interactions with the metamask wallet.
 
-```
 ## Authors
 
 Elijah Raphael A. Gaylan
